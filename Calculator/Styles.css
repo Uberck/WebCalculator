@@ -1,0 +1,50 @@
+﻿/* Christos Kokkalis web calculator custom CSS - align all to center, no border */
+/* Resize browser width to notice responsive design (based on window width) */
+
+@media screen and (min-width: 800px) {
+    /* For desktop */
+    #container {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 799px) {
+    /* For mobile phones */
+    #container {
+        font-size: 40px;
+    }
+}
+
+#container {
+    text-align: center;
+    margin: auto;
+    border: none;
+}
+
+.style1 {
+    text-align: center;
+    margin: auto;
+    border: none;
+}
+
+.style2 {
+    text-align: center;
+    margin: auto;
+    border: none;
+}
+
+.style3 {
+    text-align: center;
+    margin: auto;
+    border: none;
+}
+
+.style4 {
+    text-align: center;
+    margin: auto;
+    border: none;
+}
+
+.style5 {
+    text-align: center;
+    margin: auto;
+}
